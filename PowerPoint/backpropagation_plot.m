@@ -4,7 +4,7 @@ hold on
 figure_123 = plot(x,y, 'b','LineWidth',2)
 plot([0 0],ylim, '--r', 'LineWidth', 1)
 set(gca,'XTick',[], 'YTick', [])
-%title('Takaisinkytkentä')
+%title('')
 xlabel('Painokerroin','FontName','Times','FontSize',12,'FontWeight','bold','Color','#EDB120', 'Position', [4 0]);
 ylabel('Virhe','FontName','Times','FontSize',12,'FontWeight','bold','Color','#EDB120')
 annotation('arrow',[.13 .94],[.11 .11])
